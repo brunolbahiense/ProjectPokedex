@@ -7,6 +7,15 @@ body {
 	font-family: rubik;
 }
 
+.navbar{
+	background: #d53b47;
+}
+
+.dexIcon {
+	height: 54px;
+	width: 54px;
+	text-align: center;
+}
 .container {
 	padding: 40px;
 	margin: 0 auto;
@@ -60,23 +69,23 @@ h1 {
 }
 
 .electric {
-	background-color: #F0CF98;
+	background-color: #f0d330;
 }
 
 .water, .ice {
 	background-color: #50B0D8;
 }
 
-.ground {
+.rock {
 	background-color: #966f47;
 }
 
-.rock {
-	background-color: #85854e;
+.ground {
+	background-color: #c2af47;
 }
 
 .fairy {
-	background-color: #e197f0;
+	background-color: #eda1d0;
 }
 
 .poison {
@@ -92,7 +101,7 @@ h1 {
 }
 
 .psychic {
-	background-color: #eaeda1;
+	background-color: #997996;
 }
 
 .flying {
@@ -104,7 +113,7 @@ h1 {
 }
 
 .normal {
-	background-color: #F5F5F5;
+	background-color: #979797;
 }
 
 .ghost {
@@ -117,6 +126,7 @@ h1 {
 
 
 .card-title {
+	color: #fff;
 	text-transform: capitalize;
 	margin-bottom: 0px;
 	font-size: 32px;
