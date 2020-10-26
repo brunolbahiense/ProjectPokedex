@@ -7,16 +7,14 @@ const generateHtml = pokemons => pokemons.reduce((accumulator, { name, id, types
     const elementTypes = types.map(typeInfo => typeInfo.type.name)
 
     accumulator += `
-        <li class="card ${elementTypes[0]}">
+        <button class="card ${elementTypes[0]}">
         <img class="card-image" alt="${name}" src="https://pokeres.bastionbot.org/images/pokemon/${id}.png" />
         <h2 class="card-title">${name}</h2>
         
-        </li>`
+        </button>`
     return accumulator
 
     }, '')
-
-
 
 const insertPokemonsIntoPage = pokemons => {
     const ul = document.querySelector('[data-js="pokedex"]')
