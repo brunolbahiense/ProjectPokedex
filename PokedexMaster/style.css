@@ -1,20 +1,18 @@
 body {
 	background: #EFEFBB;
 	background: #2B2A2C;
-	;
-	color: white;
+	color: #fff;
 	margin: 0;
 	font-family: rubik;
 }
 
-.navbar{
+header{
 	background: #d53b47;
 }
 
 .dexIcon {
-	height: 54px;
-	width: 54px;
-	text-align: center;
+	height: 40px;
+	width: 40px;
 }
 .container {
 	padding: 40px;
@@ -22,6 +20,7 @@ body {
 }
 
 h1 {
+	margin: 0;
 	text-align: center;
 	font-size: 54px;
 }
@@ -120,6 +119,9 @@ h1 {
 	background: #9EAFD0;
 }
 
+.dark {
+	background: #000;
+}
 .card:hover {
 	animation: bounce 0.5s linear;
 }
