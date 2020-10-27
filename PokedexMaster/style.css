@@ -10,6 +10,20 @@ header{
 	background: #d53b47;
 }
 
+.footer{
+	background: #d53b47;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.smartbit{
+	border-radius: 100%;
+	height: 20px;
+	width: 20px;
+}
+
 .dexIcon {
 	height: 40px;
 	width: 40px;
@@ -21,6 +35,7 @@ header{
 
 h1 {
 	margin: 0;
+	padding: 10px;
 	text-align: center;
 	font-size: 54px;
 }
@@ -126,21 +141,12 @@ h1 {
 	animation: bounce 0.5s linear;
 }
 
-
 .card-title {
 	color: #fff;
 	text-transform: capitalize;
 	margin-bottom: 0px;
 	font-size: 32px;
 	font-weight: normal;
-	position: relative;
-	z-index: 2;
-}
-
-.card-subtitle {
-	margin-top: 5px;
-	color: #666;
-	font-weight: lighter;
 	position: relative;
 	z-index: 2;
 }
