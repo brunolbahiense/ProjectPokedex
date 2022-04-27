@@ -51,6 +51,7 @@ h1 {
 }
 
 .card {
+	border: none;
 	list-style: none;
 	padding: 40px;
 	color: #222;
